@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Complete Responsive Food Website Design</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="#home"><i class="fas fa-utensils"></i>Resto.</a>
+        </div>
+        <div class="menu">
+            <a href="#home" class="actives">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order</a>
+        </div>
+        <div class="icon">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="searchIicon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+        <!-- search container -->
+
+        <section class="searchBx">
+            <div class="inp">
+                <input type="text" placeholder="Bir şey yazın">
+                <i class="fas fa-search" id="search-icon"></i>
+            </div>
+            <i class="fas fa-times" id="close"></i>
+        </section>
+
+         <!-- Home page -->
+
+    <section class="swiper-container home-container" id="home">
+
+        <div class="swiper-wrapper wrapper">
+
+        <div class="swiper-slide slide" data-swiper-autoplay="2000">
+            <div class="text">
+                <h3>Our Special Dish </h3>
+                <h1>Spagetdi</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eveniet, vel fugiat pariatur.</p>
+                <a href="#">Sifariş Et</a>
+            </div>
+        <div class="img">
+            <img src="images/home-img-1.png" alt="">
+        </div>
+    </div>
+
+   
+    <div class=" swiper-slide slide" data-swiper-autoplay="2000">
+        <div class="text">
+            <h3>Our Special Dish </h3>
+            <h1>Qızardılmış Toyuq</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eveniet, vel fugiat pariatur.</p>
+            <a href="#">Sifariş Et</a>
+        </div>
+        <div class="img">
+            <img src="images/home-img-2.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="swiper-slide slide" data-swiper-autoplay="2000">
+        <div class="text">
+            <h3>Our Special Dish </h3>
+            <h1>Pizza</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eveniet, vel fugiat pariatur.</p>
+            <a href="#">Sifariş Et</a>
+        </div>
+        <div class="img">
+            <img src="images/home-img-3.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="swiper-pagination"></div>
+    </section>
+
+       <!-- Dishes page -->
+
+       <section class="dishes" id="dishes">
+        <div class="head">
+            <h5>Our Dishes</h5>
+            <h1>Popular Dishes</h1>
+        </div>
+        <div class="container-box">
+           <div class="box">
+               <div class="boxIcon">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+        </div>
+            <img src="images/dish-1.png" alt="">
+            <h2>Tasty Food</h2>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="coin">
+                <span>$15.99</span>
+                <a href="#">Sifariş ver</a>
+               </div>
+           </div>
+
+           <div class="box">
+            <div class="boxIcon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+         <img src="images/dish-2.png" alt="">
+         <h2>Tasty Food</h2>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+         </div>
+         <div class="coin">
+             <span>$15.99</span>
+             <a href="#">Sifariş ver</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="boxIcon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+         <img src="images/dish-3.png" alt="">
+         <h2>Tasty Food</h2>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+         </div>
+         <div class="coin">
+             <span>$15.99</span>
+             <a href="#">Sifariş ver</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="boxIcon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+         <img src="images/dish-4.png" alt="">
+         <h2>Tasty Food</h2>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+         </div>
+         <div class="coin">
+             <span>$15.99</span>
+             <a href="#">Sifariş ver</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="boxIcon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+         <img src="images/dish-5.png" alt="">
+         <h2>Tasty Food</h2>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+         </div>
+         <div class="coin">
+             <span>$15.99</span>
+             <a href="#">Sifariş ver</a>
+            </div>
+        </div>
+
+        <div class="box" id="lastBox">
+            <div class="boxIcon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+         <img src="images/dish-6.png" alt="">
+         <h2>Tasty Food</h2>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+         </div>
+         <div class="coin">
+             <span>$15.99</span>
+             <a href="#">Sifariş ver</a>
+            </div>
+        </div>
+    </div>
+       </section>
+
+       <!-- About us -->
+
+       <section class="about" id="about">
+           <div class="head">
+            <h5>About Us</h5>
+            <h1>WHY CHOOSE US?</h1>
+           </div>
+
+           <div class="aboutBx">
+               <div class="abimg">
+                   <img src="images/about-img.png" alt="">
+               </div>
+
+               <div class="abTxt">
+                   <p>Best Food In The Country</p>
+                   <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, Sequi Corrupti Corporis Quaerat Voluptatem Ipsam Neque Labore Modi Autem, Saepe Numquam Quod Reprehenderit Rem? Tempora Aut Soluta Odio Corporis Nihil!</p>
+
+                   <p> Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Aperiam, Nemo. Sit Porro Illo Eos Cumque Deleniti Iste Alias, Eum Natus.</p>
+
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>free delivery</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>easy payments</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 service</span>
+                        </div>
+                    </div>
+                    <a href="#">Daha çoxuna bax</a>
+               </div>
+
+           </div>
+       </section>
+
+       <!-- menu page -->
+
+     <section class="menu-container" id="menu">
+        <div class="head">
+            <h5>Our Menu</h5>
+            <h1>TODAY'S SPECIALITY</h1>
+           </div>
+
+           <div class="menuBx">
+               <div class="mbox">
+            <div class="mboxIcon">
+         <i class="fas fa-heart"></i>
+     </div>
+     <div class="mimg">
+         <img src="images/menu-1.jpg" alt="">
+        </div>
+         <div class="mstars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="mtxt">
+         <h2>Delicious Food</h2>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi corrupti hic, facilis obcaecati sed</p>
+        </div>
+         <div class="mcoin">
+            <a href="menuFood.html">Sifariş ver</a>
+             <span>$15.99</span>
+            </div>
+        </div>
+
+        <div class="mbox">
+            <div class="mboxIcon">
+                <i class="fas fa-heart"></i>
+     </div>
+     <div class="mimg">
+         <img src="images/menu-2.jpg" alt="">
+        </div>
+         <div class="mstars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="mtxt">
+            <h2>Delicious Food</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi corrupti hic, facilis obcaecati sed</p>
+        </div>
+         <div class="mcoin">
+            <a href="#">Sifariş ver</a>
+             <span>$15.99</span>
+            </div>
+        </div>
+
+        <div class="mbox">
+            <div class="mboxIcon">
+                <i class="fas fa-heart"></i>
+     </div>
+     <div class="mimg">
+         <img src="images/menu-3.jpg" alt="">
+        </div>
+         <div class="mstars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="mtxt">
+            <h2>Delicious Food</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi corrupti hic, facilis obcaecati sed</p>
+        </div>
+         <div class="mcoin">
+            <a href="#">Sifariş ver</a>
+             <span>$15.99</span>
+            </div>
+        </div>
+
+        <div class="mbox">
+            <div class="mboxIcon">
+                <i class="fas fa-heart"></i>
+     </div>
+     <div class="mimg">
+         <img src="images/menu-4.jpg" alt="">
+        </div>
+         <div class="mstars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="mtxt">
+            <h2>Delicious Food</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi corrupti hic, facilis obcaecati sed</p>
+        </div>
+         <div class="mcoin">
+            <a href="#">Sifariş ver</a>
+             <span>$15.99</span>
+            </div>
+        </div>
+
+        <div class="mbox">
+            <div class="mboxIcon">
+                <i class="fas fa-heart"></i>
+     </div>
+     <div class="mimg">
+         <img src="images/menu-5.jpg" alt="">
+        </div>
+         <div class="mstars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="mtxt">
+            <h2>Delicious Food</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi corrupti hic, facilis obcaecati sed</p>
+        </div>
+         <div class="mcoin">
+            <a href="#">Sifariş ver</a>
+             <span>$15.99</span>
+            </div>
+        </div>
+
+        <div class="mbox">
+            <div class="mboxIcon">
+                <i class="fas fa-heart"></i>
+     </div>
+     <div class="mimg">
+         <img src="images/menu-6.jpg" alt="">
+        </div>
+         <div class="mstars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="mtxt">
+            <h2>Delicious Food</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi corrupti hic, facilis obcaecati sed</p>
+        </div>
+         <div class="mcoin">
+            <a href="#">Sifariş ver</a>
+             <span>$15.99</span>
+            </div>
+        </div>
+
+        <div class="mbox">
+            <div class="mboxIcon">
+                <i class="fas fa-heart"></i>
+     </div>
+     <div class="mimg">
+         <img src="images/menu-7.jpg" alt="">
+        </div>
+         <div class="mstars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="mtxt">
+            <h2>Delicious Food</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi corrupti hic, facilis obcaecati sed</p>
+        </div>
+         <div class="mcoin">
+            <a href="#">Sifariş ver</a>
+             <span>$15.99</span>
+            </div>
+        </div>
+
+        <div class="mbox">
+            <div class="mboxIcon">
+                <i class="fas fa-heart"></i>
+     </div>
+     <div class="mimg">
+         <img src="images/menu-8.jpg" alt="">
+        </div>
+         <div class="mstars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="mtxt">
+            <h2>Delicious Food</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi corrupti hic, facilis obcaecati sed</p>
+        </div>
+         <div class="mcoin">
+            <a href="#">Sifariş ver</a>
+             <span>$15.99</span>
+            </div>
+        </div>
+
+        <div class="mbox">
+            <div class="mboxIcon">
+                <i class="fas fa-heart"></i>
+     </div>
+     <div class="mimg">
+         <img src="images/menu-9.jpg" alt="">
+        </div>
+         <div class="mstars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="mtxt">
+            <h2>Delicious Food</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi corrupti hic, facilis obcaecati sed</p>
+        </div>
+         <div class="mcoin">
+            <a href="#">Sifariş ver</a>
+             <span>$15.99</span>
+            </div>
+        </div>
+    </div>
+     </section>
+
+
+     <!-- order page -->
+
+      <section class="order" id="order">
+        <div class="head">
+            <h5>Order Now</h5>
+            <h1>FREE AND FAST</h1>
+           </div>
+           
+           <form class="orderBx">
+               <div class="inputBx">
+                   <div class="input">
+                       <span>Your Name</span>
+                       <input type="text" placeholder="enter your Name">
+                   </div>
+                   <div class="input">
+                       <span>Your Number</span>
+                       <input type="tel" placeholder="enter your Number">
+                   </div>
+               </div>
+
+               <div class="inputBx">
+                <div class="input">
+                    <span>Your Order</span>
+                    <input type="text" placeholder="enter your food name">
+                </div>
+                <div class="input">
+                    <span>Additional Food</span>
+                    <input type="tel" placeholder="enter with food">
+                </div>
+            </div>
+
+            <div class="inputBx">
+                <div class="input">
+                    <span>How Musch</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>Date And Time</span>
+                    <input type="date">
+                </div>
+            </div>
+
+            <div class="inputBx">
+                <div class="input">
+                    <span>Your Address</span>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="enter your adress"></textarea>
+                </div>
+                <div class="input">
+                    <span>Your Message</span>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="enter your adress"></textarea>
+                </div>
+            </div>
+           <a href="#">Sifariş ver</a>
+        </form>
+     </section> 
+
+
+     <section class="footer">
+
+        <div class="footer-container">
+    
+            <div class="fotbox">
+                <h3>locations</h3>
+                <a href="#">india</a>
+                <a href="#">japan</a>
+                <a href="#">russia</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+            </div>
+    
+            <div class="fotbox">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">reivew</a>
+                <a href="#">order</a>
+            </div>
+    
+            <div class="fotbox">
+                <h3>contact info</h3>
+                <a href="#">+994-51-573-40-98</a>
+                <a href="#">+994-70-879-60-14</a>
+                <a href="#">ziya.787262@gmail.com</a>
+                <a href="#">ziya.787262@mail.ru</a>
+                <a href="#">Bakı, Azərbaycan</a>
+            </div>
+    
+            <div class="fotbox">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+    
+        </div>
+    
+        <div class="credit"> copyright @ 2021 by <span>Web Developer Ziya Ceferli</span> </div>
+    
+    </section>
+
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

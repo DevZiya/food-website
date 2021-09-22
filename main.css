@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Nunito", sans-serif; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(#649173, #DBD5A4); }
+  .container .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover; }
+    .container .img img {
+      height: 50vh;
+      width: 50vh;
+      border: 4px solid #27ae60;
+      border-radius: 50%; }
+  .container .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; }
+    .container .txt h2 {
+      font-weight: bold;
+      font-size: 45px;
+      color: #192a56; }
+    .container .txt p {
+      padding: 5px 200px;
+      font-size: 18px;
+      color: #666; }
+  .container .input {
+    position: relative; }
+    .container .input input {
+      height: 30px;
+      width: 50px;
+      text-align: center;
+      outline: none;
+      border: 1px solid #27ae60;
+      border-radius: 5px; }
+  .container .price {
+    display: flex;
+    margin-top: 20px; }
+    .container .price a {
+      font-size: 16px;
+      padding: 8px 25px;
+      background-color: #192a56;
+      color: #ffff;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-left: 20px; }
+      .container .price a:hover {
+        letter-spacing: 1px;
+        background-color: #27ae60;
+        color: #ffff; }
+    .container .price span {
+      font-size: 30px;
+      font-weight: bold;
+      color: #27ae60; }
+
+@media (max-width: 870px) {
+  .container .img img {
+    height: 40vh;
+    width: 40vh;
+    border: 2px solid #27ae60; }
+  .container .txt {
+    top: 0; }
+    .container .txt h2 {
+      font-size: 30px; }
+    .container .txt p {
+      padding: 5px 100px;
+      font-size: 14px; }
+  .container .price {
+    margin-top: 10px; }
+    .container .price a {
+      font-size: 14px;
+      padding: 10px 15px; }
+    .container .price span {
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
+@media (max-width: 400px) {
+  .container .img img {
+    height: 30vh;
+    width: 30vh; }
+  .container .txt h2 {
+    font-size: 25px; }
+  .container .txt p {
+    padding: 5px 50px; } }
